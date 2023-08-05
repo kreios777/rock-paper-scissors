@@ -7,6 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="game.js"></script>
+    <div class="container-main">
+        <div class="title"><h1>Rock Paper Scissors</h1></div>
+        <div class="container-rps">
+                <input type="image" id="rock" src="rock.png" alt="rock" />
+                <input type="image" id="paper" src="paper.png" alt="rock" />
+                <input type="image" id="scissors" src="scissors.png" alt="rock" />
+        </div>
+        <div class="container-score">
+            <h2 class="score-title">Player vs Computer</h2>
+            <div class="player-comp-container">
+                <div class="player-score-container">
+                    <h3>Player: <span id="player-score">0</span></h2>
+                </div>
+                <div class="computer-score-container">
+                    <h3><span id="computer-score">0</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-prompt">
+            <p id="prompt">The battle of player vs computer begins</p>
+        </div>
+        <div class="footer">
+            <p>Made by: Kreios</p>
+        </div>
+        </div>
+
+    <script src="rps.js"></script>
 </body>
 </html>
